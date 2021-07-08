@@ -68,7 +68,7 @@ header nav a:hover {
 main .principal {
     font-size: 16px;
     
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.100)), url('/img/vantagens2.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.100)), url('/bookflix/img/vantagens1.jpg');
     height: 400px;
     background-size: cover;
     
@@ -95,6 +95,7 @@ main .botao {
     background-color: rgba(0,0,0,.50); /*rgba(209, 221, 43, 0.5);*/
     border: none;
     color: #AAA ;
+    text-decoration: none;
 
     padding: 15px 20px;
     margin-right: 15px;
@@ -125,7 +126,7 @@ main .botao i {
 
 /* CARROSSEL FILMES*/
 
-.titulo_carrossel_filmes {
+.titulo_carrossel {
     font-size: 15px;
     font-style: italic;
 
@@ -134,14 +135,18 @@ main .botao i {
     margin-bottom: 5px;
 }
 
+.titulo-filmes{
+    margin: 10px;
+    font-size: 20px;
+}
+
 .box-filmes {
     height: 350px;
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
-.carrossel-filmes {
+.carrosel-filmes{
     margin-top: 5px;
-    height: 50px;
 }
 
